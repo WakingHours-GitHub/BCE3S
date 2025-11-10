@@ -6,19 +6,19 @@ This is the offcial repo for paper "BCE3S: Binary Cross-entropy based Tripartite
 
 # Run
 ## Requirements
-```
+```shell
 git clone https://github.com/WakingHours-GitHub/BCE3S.git
 cd BCE3S
 ```
 Install Conda
-```
+```shell
 conda create -n bce3s python=3.10
 conda activate bce3s
 pip install -r requirements.txt
 ```
 ## Training BCE3S on CIFAR100 with IF=100
 
-```
+```shell
 # run stage1 for BCE3S
 sh scripts/run_stage1.sh 0
 
@@ -28,7 +28,7 @@ sh scripts/run_stage2.sh 0
 
 
 ## LOG
-Log files can be found in logs dir. 
+Log files can be found in [logs dir](logs). 
 
 
 # Reference
