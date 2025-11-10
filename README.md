@@ -9,7 +9,6 @@ This is the offcial repo for paper "BCE3S: Binary Cross-entropy based Tripartite
 ```
 git clone https://github.com/WakingHours-GitHub/BCE3S.git
 cd BCE3S
-
 ```
 Install Conda
 ```
@@ -43,7 +42,7 @@ Thanks for your attention, if our work is helpful for your work, please star thi
 
 # To-do
 
-- [&#10004] update CIFAR100 code
-- [ &#10004 ] Upload log files. 
+- [x] update CIFAR100 code
+- [x] Upload log files. 
 ...
 
