@@ -252,7 +252,7 @@ def main():
     )
     
     # Plot weight evolution
-    plot_weights_evolution(trackRecords)
+    # plot_weights_evolution(trackRecords)
     
     # Load best model
     best_model_path = os.path.join(save_dir, args.model_name + '_best.paramOnly')
