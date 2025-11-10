@@ -3,6 +3,9 @@ This is the offcial repo for paper "BCE3S: Binary Cross-entropy based Tripartite
 
 # Paper coming soon~
 
+# Overview
+![Overview](stastic/figs/Picture1.pdf)
+
 
 # Run
 ## Requirements
