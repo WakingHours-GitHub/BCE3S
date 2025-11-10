@@ -12,7 +12,7 @@ cd BCE3S
 ```
 Install Conda
 ```shell
-conda create -n bce3s python=3.10
+conda create -n bce3s python=3.10 -y
 conda activate bce3s
 pip install -r requirements.txt
 ```
@@ -37,8 +37,8 @@ Thanks for your attention, if our work is helpful for your work, please star thi
 @inproceedings{weijia2025bce3s,
     title={BCE3S: Binary Cross-entropy based Tripartite Synergistic Learning for Long-tailed Recognition},
     author={Weijia Fan, Qiufu Li, Jiajun Wen, and Xiaoyang Peng},
-    booktitle={Fortieth AAAI Conference on Artificial Intelligence},
-    year={2025},
+    booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+    year={2026},
 }
 ```
 <!-- url={} -->
