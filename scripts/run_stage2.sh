@@ -7,7 +7,8 @@ Usage: bash scripts/run_stage2.sh [GPU_ID] [STAGE1_PROJECT_NAME]
 # Default configuration
 GPU_ID=${1:-0}
 STAGE1_PROJECT=${2:-""}
-PROJECT_NAME="stage2_$(date +%Y%m%d_%H%M%S)"
+# PROJECT_NAME="stage2_$(date +%Y%m%d_%H%M%S)"
+PROJECT_NAME="main_cifar100_stage2"
 
 echo "Starting CIFAR-100 Stage 2 Training..."
 echo "GPU: $GPU_ID"

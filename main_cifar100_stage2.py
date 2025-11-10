@@ -51,7 +51,7 @@ def parse_arguments():
     
     # Training settings
     parser.add_argument('--batch_size', default=64, type=int, help='Batch size')
-    parser.add_argument('--epochs', default=40, type=int, help='Number of training epochs')
+    parser.add_argument('--epochs', default=10, type=int, help='Number of training epochs')
     parser.add_argument('--lr', default=0.0001, type=float, help='Learning rate')
     parser.add_argument('--weight_decay', default=0, type=float, help='Weight decay')
     parser.add_argument('--momentum', default=0.9, type=float, help='SGD momentum')

@@ -1,0 +1,24 @@
+# Essential dependencies for BCE3S CIFAR-100 Long-Tail Training
+# Deep Learning Framework
+torch==1.13.1
+torchvision==0.14.1
+
+# Scientific Computing
+numpy==1.26.2
+scipy==1.11.4
+
+# Machine Learning & Data Processing
+scikit-learn==1.3.2
+scikit-image==0.22.0
+
+# Image Processing
+pillow==10.3.0
+
+# Plotting & Visualization
+matplotlib==3.8.2
+
+# Hyperparameter Optimization (optional but used in trainval.py)
+nni==3.0
+
+# TensorBoard for logging (optional)
+tensorboard==2.16.2
