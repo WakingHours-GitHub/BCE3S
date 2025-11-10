@@ -45,8 +45,8 @@ Thanks for your attention, if our work is helpful for your work, please star thi
 
 # To-do
 
-- [x] update CIFAR100 code
-- [x] Upload log files. 
+- [x] Update CIFAR100 code
+- [x] Upload part of log files. 
 
 ...
 
