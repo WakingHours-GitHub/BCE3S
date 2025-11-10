@@ -10,7 +10,7 @@ This is the offcial repo for paper "BCE3S: Binary Cross-entropy based Tripartite
 git clone https://github.com/WakingHours-GitHub/BCE3S.git
 cd BCE3S
 ```
-Install Conda
+Install dependency
 ```shell
 conda create -n bce3s python=3.10 -y
 conda activate bce3s
