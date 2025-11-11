@@ -66,7 +66,7 @@ def parse_arguments():
     # Sampling settings
     parser.add_argument('--num_workers', default=8, type=int, help='Number of data loading workers')
     parser.add_argument('--weighted_workers', default=16, type=int, help='Workers for weighted sampler')
-    parser.add_argument('--resample_weighting', default=0.3, type=float, help='Resample weighting factor')
+    parser.add_argument('--resample_weighting', default=0.0, type=float, help='Resample weighting factor')
     
     # Output settings
     parser.add_argument('--save_root', default='runs/main_cifar100_stage1', type=str, help='Save directory')

@@ -1,4 +1,4 @@
-Configuration: project_name=, imbalance_factor=0.01, num_classes=100, embedding_dim=512, encoder=ResNet34, batch_size=64
+Configuration: project_name=exp_20251111_094017, imbalance_factor=0.01, num_classes=100, embedding_dim=512, encoder=ResNet34, batch_size=64
 Python version: 3.9.19 (main, May  6 2024, 19:43:03) 
 [GCC 11.2.0]
 PyTorch version: 1.13.1+cu117
@@ -13,276 +13,227 @@ BCE_TripartiteSynergisticLearning(in_features=512, out_features=100, temperature
 Epoch 1/320
 ----------
 train
-	loss:76.939641, acc-all:0.04886, acc-avg-cls:0.01491 | lr: 0.00999975904479664
+	loss:76.849064, acc-all:0.05485, acc-avg-cls:0.01663 | lr: 0.00999975904479664
 test
-	loss:5.989525, acc-all:0.03680, acc-avg-cls:0.03680 | lr: 0.00999975904479664
-
-Epoch 2/320
-----------
-train
-	loss:99.068373, acc-all:0.08325, acc-avg-cls:0.02580 | lr: 0.009999036202410326
-test
-	loss:5.939439, acc-all:0.04140, acc-avg-cls:0.04140 | lr: 0.009999036202410326
-
-Epoch 3/320
-----------
-train
-	loss:99.846128, acc-all:0.11487, acc-avg-cls:0.03662 | lr: 0.009997831542510107
-test
-	loss:5.862582, acc-all:0.05370, acc-avg-cls:0.05370 | lr: 0.009997831542510107
-
-Epoch 4/320
-----------
-train
-	loss:99.795718, acc-all:0.12483, acc-avg-cls:0.04246 | lr: 0.009996145181203616
-test
-	loss:5.696916, acc-all:0.07120, acc-avg-cls:0.07120 | lr: 0.009996145181203616
-
-Epoch 5/320
-----------
-train
-	loss:99.809384, acc-all:0.13571, acc-avg-cls:0.04612 | lr: 0.009993977281025863
-test
-	loss:5.688299, acc-all:0.07190, acc-avg-cls:0.07190 | lr: 0.009993977281025863
-
-Epoch 6/320
-----------
-train
-	loss:99.817353, acc-all:0.14861, acc-avg-cls:0.05073 | lr: 0.009991328050923582
-test
-	loss:5.833333, acc-all:0.05480, acc-avg-cls:0.05480 | lr: 0.009991328050923582
-
-Epoch 7/320
-----------
-train
-	loss:99.771938, acc-all:0.16060, acc-avg-cls:0.05594 | lr: 0.00998819774623508
-test
-	loss:5.601071, acc-all:0.08850, acc-avg-cls:0.08850 | lr: 0.00998819774623508
-
-Epoch 8/320
-----------
-train
-	loss:99.438389, acc-all:0.16945, acc-avg-cls:0.05930 | lr: 0.00998458666866564
-test
-	loss:5.662435, acc-all:0.08870, acc-avg-cls:0.08870 | lr: 0.00998458666866564
-
-Epoch 9/320
-----------
-train
-	loss:99.766990, acc-all:0.19526, acc-avg-cls:0.06976 | lr: 0.009980495166258437
-test
-	loss:5.765300, acc-all:0.06700, acc-avg-cls:0.06700 | lr: 0.009980495166258437
-
-Epoch 10/320
-----------
-train
-	loss:99.869011, acc-all:0.20549, acc-avg-cls:0.07248 | lr: 0.009975923633360985
-test
-	loss:5.419493, acc-all:0.10220, acc-avg-cls:0.10220 | lr: 0.009975923633360985
+	loss:5.923563, acc-all:0.04190, acc-avg-cls:0.04190 | lr: 0.00999975904479664
 
 Epoch 11/320
 ----------
 train
-	loss:99.807520, acc-all:0.22716, acc-avg-cls:0.08362 | lr: 0.00997087251058714
+	loss:99.682605, acc-all:0.24265, acc-avg-cls:0.08742 | lr: 0.00997087251058714
 test
-	loss:5.538598, acc-all:0.11240, acc-avg-cls:0.11240 | lr: 0.00997087251058714
-
-Epoch 12/320
-----------
-train
-	loss:99.767760, acc-all:0.24191, acc-avg-cls:0.08908 | lr: 0.009965342284774631
-test
-	loss:5.418037, acc-all:0.10210, acc-avg-cls:0.10210 | lr: 0.009965342284774631
-
-Epoch 13/320
-----------
-train
-	loss:98.996302, acc-all:0.24975, acc-avg-cls:0.09356 | lr: 0.00995933348893813
-test
-	loss:5.783862, acc-all:0.11500, acc-avg-cls:0.11500 | lr: 0.00995933348893813
-
-Epoch 14/320
-----------
-train
-	loss:99.683194, acc-all:0.25998, acc-avg-cls:0.09662 | lr: 0.009952846702217886
-test
-	loss:5.345891, acc-all:0.13800, acc-avg-cls:0.13800 | lr: 0.009952846702217886
-
-Epoch 15/320
-----------
-train
-	loss:99.641627, acc-all:0.28644, acc-avg-cls:0.11056 | lr: 0.009945882549823907
-test
-	loss:5.431476, acc-all:0.14900, acc-avg-cls:0.14900 | lr: 0.009945882549823907
-
-Epoch 16/320
-----------
-train
-	loss:99.590787, acc-all:0.31068, acc-avg-cls:0.12253 | lr: 0.009938441702975689
-test
-	loss:5.281581, acc-all:0.16880, acc-avg-cls:0.16880 | lr: 0.009938441702975689
-
-Epoch 17/320
-----------
-train
-	loss:99.540916, acc-all:0.30718, acc-avg-cls:0.12089 | lr: 0.009930524878837544
-test
-	loss:5.226485, acc-all:0.17110, acc-avg-cls:0.17110 | lr: 0.009930524878837544
-
-Epoch 18/320
-----------
-train
-	loss:98.727038, acc-all:0.33318, acc-avg-cls:0.13601 | lr: 0.009922132840449458
-test
-	loss:5.387266, acc-all:0.15420, acc-avg-cls:0.15420 | lr: 0.009922132840449458
-
-Epoch 19/320
-----------
-train
-	loss:99.415905, acc-all:0.33576, acc-avg-cls:0.13462 | lr: 0.00991326639665356
-test
-	loss:5.403000, acc-all:0.17570, acc-avg-cls:0.17570 | lr: 0.00991326639665356
-
-Epoch 20/320
-----------
-train
-	loss:99.402533, acc-all:0.34811, acc-avg-cls:0.14643 | lr: 0.009903926402016152
-test
-	loss:5.435921, acc-all:0.17700, acc-avg-cls:0.17700 | lr: 0.009903926402016152
+	loss:5.698473, acc-all:0.10420, acc-avg-cls:0.10420 | lr: 0.00997087251058714
 
 Epoch 21/320
 ----------
 train
-	loss:99.348565, acc-all:0.35632, acc-avg-cls:0.14833 | lr: 0.009894113756745362
+	loss:99.258660, acc-all:0.36001, acc-avg-cls:0.14985 | lr: 0.009894113756745362
 test
-	loss:5.371840, acc-all:0.15380, acc-avg-cls:0.15380 | lr: 0.009894113756745362
-
-Epoch 22/320
-----------
-train
-	loss:99.268664, acc-all:0.37199, acc-avg-cls:0.16158 | lr: 0.009883829406604363
-test
-	loss:5.171508, acc-all:0.17920, acc-avg-cls:0.17920 | lr: 0.009883829406604363
-
-Epoch 23/320
-----------
-train
-	loss:98.692899, acc-all:0.38269, acc-avg-cls:0.16237 | lr: 0.009873074342820226
-test
-	loss:5.079574, acc-all:0.18890, acc-avg-cls:0.18890 | lr: 0.009873074342820226
-
-Epoch 24/320
-----------
-train
-	loss:99.201959, acc-all:0.39421, acc-avg-cls:0.16828 | lr: 0.009861849601988385
-test
-	loss:5.143412, acc-all:0.20140, acc-avg-cls:0.20140 | lr: 0.009861849601988385
-
-Epoch 25/320
-----------
-train
-	loss:99.141149, acc-all:0.39679, acc-avg-cls:0.17835 | lr: 0.009850156265972722
-test
-	loss:5.121932, acc-all:0.20380, acc-avg-cls:0.20380 | lr: 0.009850156265972722
-
-Epoch 26/320
-----------
-train
-	loss:99.100171, acc-all:0.41458, acc-avg-cls:0.18656 | lr: 0.0098379954618013
-test
-	loss:5.146627, acc-all:0.19880, acc-avg-cls:0.19880 | lr: 0.0098379954618013
-
-Epoch 27/320
-----------
-train
-	loss:99.049656, acc-all:0.41910, acc-avg-cls:0.18801 | lr: 0.00982536836155774
-test
-	loss:5.149989, acc-all:0.21180, acc-avg-cls:0.21180 | lr: 0.00982536836155774
-
-Epoch 28/320
-----------
-train
-	loss:98.190165, acc-all:0.41901, acc-avg-cls:0.19345 | lr: 0.009812276182268239
-test
-	loss:4.985409, acc-all:0.20920, acc-avg-cls:0.20920 | lr: 0.009812276182268239
-
-Epoch 29/320
-----------
-train
-	loss:99.038287, acc-all:0.43210, acc-avg-cls:0.20183 | lr: 0.00979872018578429
-test
-	loss:4.908776, acc-all:0.22250, acc-avg-cls:0.22250 | lr: 0.00979872018578429
-
-Epoch 30/320
-----------
-train
-	loss:98.993258, acc-all:0.43699, acc-avg-cls:0.20417 | lr: 0.009784701678661047
-test
-	loss:5.189174, acc-all:0.21620, acc-avg-cls:0.21620 | lr: 0.009784701678661047
+	loss:5.334977, acc-all:0.17540, acc-avg-cls:0.17540 | lr: 0.009894113756745362
 
 Epoch 31/320
 ----------
 train
-	loss:98.989424, acc-all:0.44759, acc-avg-cls:0.21868 | lr: 0.009770222012031406
+	loss:98.819037, acc-all:0.45662, acc-avg-cls:0.21252 | lr: 0.009770222012031406
 test
-	loss:5.547652, acc-all:0.19850, acc-avg-cls:0.19850 | lr: 0.009770222012031406
+	loss:5.383472, acc-all:0.23400, acc-avg-cls:0.23400 | lr: 0.009770222012031406
 
-Epoch 32/320
+Epoch 41/320
 ----------
 train
-	loss:98.952648, acc-all:0.44925, acc-avg-cls:0.22141 | lr: 0.00975528258147577
+	loss:98.645718, acc-all:0.49765, acc-avg-cls:0.25156 | lr: 0.00960039042167298
 test
-	loss:4.750072, acc-all:0.23890, acc-avg-cls:0.23890 | lr: 0.00975528258147577
+	loss:5.225900, acc-all:0.26550, acc-avg-cls:0.26550 | lr: 0.00960039042167298
 
-Epoch 33/320
+Epoch 51/320
 ----------
 train
-	loss:98.911577, acc-all:0.44722, acc-avg-cls:0.21275 | lr: 0.009739884826887556
+	loss:98.525090, acc-all:0.51904, acc-avg-cls:0.27033 | lr: 0.009386254556724628
 test
-	loss:4.720726, acc-all:0.25210, acc-avg-cls:0.25210 | lr: 0.009739884826887556
+	loss:4.699178, acc-all:0.28180, acc-avg-cls:0.28180 | lr: 0.009386254556724628
 
-Epoch 34/320
+Epoch 61/320
 ----------
 train
-	loss:97.966201, acc-all:0.45736, acc-avg-cls:0.21978 | lr: 0.009724030232334395
+	loss:98.442844, acc-all:0.55213, acc-avg-cls:0.29749 | lr: 0.009129876662624372
 test
-	loss:4.829321, acc-all:0.25560, acc-avg-cls:0.25560 | lr: 0.009724030232334395
+	loss:4.795448, acc-all:0.32240, acc-avg-cls:0.32240 | lr: 0.009129876662624372
 
-Epoch 35/320
+Epoch 71/320
 ----------
 train
-	loss:98.818877, acc-all:0.47349, acc-avg-cls:0.23287 | lr: 0.009707720325915107
+	loss:98.337945, acc-all:0.57426, acc-avg-cls:0.31930 | lr: 0.00883372579864281
 test
-	loss:5.379109, acc-all:0.25710, acc-avg-cls:0.25710 | lr: 0.009707720325915107
+	loss:4.477597, acc-all:0.34450, acc-avg-cls:0.34450 | lr: 0.00883372579864281
 
-Epoch 36/320
+Epoch 81/320
 ----------
 train
-	loss:98.852082, acc-all:0.47184, acc-avg-cls:0.23147 | lr: 0.009690956679612424
+	loss:98.123666, acc-all:0.57564, acc-avg-cls:0.32189 | lr: 0.00850065405949262
 test
-	loss:5.005764, acc-all:0.24020, acc-avg-cls:0.24020 | lr: 0.009690956679612424
+	loss:4.762729, acc-all:0.30960, acc-avg-cls:0.30960 | lr: 0.00850065405949262
 
-Epoch 37/320
+Epoch 91/320
 ----------
 train
-	loss:98.369474, acc-all:0.46759, acc-avg-cls:0.23220 | lr: 0.009673740909141465
+	loss:98.253977, acc-all:0.59758, acc-avg-cls:0.34046 | lr: 0.00813386910809735
 test
-	loss:4.913716, acc-all:0.26520, acc-avg-cls:0.26520 | lr: 0.009673740909141465
+	loss:4.657315, acc-all:0.32010, acc-avg-cls:0.32010 | lr: 0.00813386910809735
 
-Epoch 38/320
+Epoch 101/320
 ----------
 train
-	loss:98.669540, acc-all:0.47930, acc-avg-cls:0.23987 | lr: 0.009656074673794021
+	loss:98.151362, acc-all:0.62275, acc-avg-cls:0.36410 | lr: 0.007736903284043986
 test
-	loss:4.702137, acc-all:0.25840, acc-avg-cls:0.25840 | lr: 0.009656074673794021
+	loss:4.602957, acc-all:0.30390, acc-avg-cls:0.30390 | lr: 0.007736903284043986
 
-Epoch 39/320
+Epoch 111/320
 ----------
 train
-	loss:98.834442, acc-all:0.48382, acc-avg-cls:0.24404 | lr: 0.009637959676278625
+	loss:98.131047, acc-all:0.63575, acc-avg-cls:0.37672 | lr: 0.007313579585221754
 test
-	loss:5.020407, acc-all:0.28730, acc-avg-cls:0.28730 | lr: 0.009637959676278625
+	loss:4.501030, acc-all:0.36440, acc-avg-cls:0.36440 | lr: 0.007313579585221754
 
-Epoch 40/320
+Epoch 121/320
 ----------
 train
+	loss:98.078876, acc-all:0.65179, acc-avg-cls:0.39159 | lr: 0.006867974850262584
+test
+	loss:4.301075, acc-all:0.37510, acc-avg-cls:0.37510 | lr: 0.006867974850262584
+
+Epoch 131/320
+----------
+train
+	loss:98.001587, acc-all:0.67014, acc-avg-cls:0.41200 | lr: 0.006404380496356464
+test
+	loss:4.640921, acc-all:0.38340, acc-avg-cls:0.38340 | lr: 0.006404380496356464
+
+Epoch 141/320
+----------
+train
+	loss:97.996129, acc-all:0.68341, acc-avg-cls:0.42485 | lr: 0.005927261190557959
+test
+	loss:4.187016, acc-all:0.39350, acc-avg-cls:0.39350 | lr: 0.005927261190557959
+
+Epoch 151/320
+----------
+train
+	loss:97.884805, acc-all:0.70195, acc-avg-cls:0.44817 | lr: 0.005441211852601853
+test
+	loss:4.910960, acc-all:0.41920, acc-avg-cls:0.41920 | lr: 0.005441211852601853
+
+Epoch 161/320
+----------
+train
+	loss:97.787769, acc-all:0.71310, acc-avg-cls:0.45434 | lr: 0.0049509134033142565
+test
+	loss:4.491834, acc-all:0.43670, acc-avg-cls:0.43670 | lr: 0.0049509134033142565
+
+Epoch 171/320
+----------
+train
+	loss:97.631932, acc-all:0.73458, acc-avg-cls:0.48195 | lr: 0.004461087684786206
+test
+	loss:4.030009, acc-all:0.41940, acc-avg-cls:0.41940 | lr: 0.004461087684786206
+
+Epoch 181/320
+----------
+train
+	loss:97.669161, acc-all:0.74859, acc-avg-cls:0.50478 | lr: 0.003976451986453103
+test
+	loss:4.342125, acc-all:0.40160, acc-avg-cls:0.40160 | lr: 0.003976451986453103
+
+Epoch 191/320
+----------
+train
+	loss:97.562169, acc-all:0.77542, acc-avg-cls:0.53866 | lr: 0.0035016736150187185
+test
+	loss:4.186887, acc-all:0.45370, acc-avg-cls:0.45370 | lr: 0.0035016736150187185
+
+Epoch 201/320
+----------
+train
+	loss:97.391585, acc-all:0.79930, acc-avg-cls:0.56413 | lr: 0.0030413249457402207
+test
+	loss:4.417075, acc-all:0.46550, acc-avg-cls:0.46550 | lr: 0.0030413249457402207
+
+Epoch 211/320
+----------
+train
+	loss:97.349957, acc-all:0.82327, acc-avg-cls:0.60217 | lr: 0.002599839387954945
+test
+	loss:3.775558, acc-all:0.48010, acc-avg-cls:0.48010 | lr: 0.002599839387954945
+
+Epoch 221/320
+----------
+train
+	loss:97.245443, acc-all:0.82281, acc-avg-cls:0.59944 | lr: 0.002181468688924917
+test
+	loss:4.298618, acc-all:0.47520, acc-avg-cls:0.47520 | lr: 0.002181468688924917
+
+Epoch 231/320
+----------
+train
+	loss:97.145534, acc-all:0.85895, acc-avg-cls:0.65098 | lr: 0.0017902419871864861
+test
+	loss:3.926042, acc-all:0.47800, acc-avg-cls:0.47800 | lr: 0.0017902419871864861
+
+Epoch 241/320
+----------
+train
+	loss:97.034370, acc-all:0.88024, acc-avg-cls:0.69417 | lr: 0.00142992700974366
+test
+	loss:4.008232, acc-all:0.49500, acc-avg-cls:0.49500 | lr: 0.00142992700974366
+
+Epoch 251/320
+----------
+train
+	loss:96.963761, acc-all:0.89481, acc-avg-cls:0.72245 | lr: 0.0011039937867974173
+test
+	loss:3.672244, acc-all:0.50480, acc-avg-cls:0.50480 | lr: 0.0011039937867974173
+
+Epoch 261/320
+----------
+train
+	loss:96.860975, acc-all:0.91684, acc-avg-cls:0.77613 | lr: 0.0008155812334579549
+test
+	loss:3.712548, acc-all:0.51370, acc-avg-cls:0.51370 | lr: 0.0008155812334579549
+
+Epoch 271/320
+----------
+train
+	loss:96.717073, acc-all:0.92920, acc-avg-cls:0.79981 | lr: 0.0005674669202762687
+test
+	loss:3.719119, acc-all:0.52380, acc-avg-cls:0.52380 | lr: 0.0005674669202762687
+
+Epoch 281/320
+----------
+train
+	loss:96.675941, acc-all:0.94008, acc-avg-cls:0.83242 | lr: 0.00036204032372138
+test
+	loss:3.751375, acc-all:0.53190, acc-avg-cls:0.53190 | lr: 0.00036204032372138
+
+Epoch 291/320
+----------
+train
+	loss:96.555861, acc-all:0.95031, acc-avg-cls:0.86120 | lr: 0.00020127981421571366
+test
+	loss:3.650767, acc-all:0.53960, acc-avg-cls:0.53960 | lr: 0.00020127981421571366
+
+Epoch 301/320
+----------
+train
+	loss:96.517780, acc-all:0.95556, acc-avg-cls:0.86662 | lr: 8.673360334644173e-05
+test
+	loss:3.565236, acc-all:0.54280, acc-avg-cls:0.54280 | lr: 8.673360334644173e-05
+
+Epoch 311/320
+----------
+train
+	loss:96.456614, acc-all:0.95483, acc-avg-cls:0.86141 | lr: 1.950483374156433e-05
+test
+	loss:3.580488, acc-all:0.55130, acc-avg-cls:0.55130 | lr: 1.950483374156433e-05
+Training complete in 90m 1s
+acc avgClass:  55.81%
+Many: 83.11% Medium: 56.51% Few: 23.13%
+Results saved to: runs/main_cifar100_stage1/exp_20251111_094017

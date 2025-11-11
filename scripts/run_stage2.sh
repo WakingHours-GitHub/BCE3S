@@ -27,7 +27,7 @@ python main_cifar100_stage2.py \
     --project_name $PROJECT_NAME \
     --stage1_root $STAGE1_ROOT \
     --batch_size 64 \
-    --epochs 10 \
+    --epochs 20 \
     --lr 0.0001 \
     --weight_decay 0 \
     --imb_factor 0.01 \
@@ -35,7 +35,7 @@ python main_cifar100_stage2.py \
     --embedding_dim 512 \
     --model_type last \
     --maxnorm_thresh 0.1 \
-    --cb_beta 0.99999 \
+    --cb_beta 0.9999 \
     --cb_gamma 2.0 \
     --cb_r 0.4 \
     --seed 0

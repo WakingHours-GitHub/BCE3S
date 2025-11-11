@@ -26,7 +26,7 @@ pip install -r requirements.txt
 sh scripts/run_stage1.sh 0
 
 # run stage2 for BCE3S
-sh scripts/run_stage2.sh 0
+sh scripts/run_stage2.sh 0 [dir_name]
 ```
 
 
