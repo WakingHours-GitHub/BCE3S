@@ -63,11 +63,14 @@ Training and evaluation logs are saved in the [`logs`](logs) directory.
 ## Citation
 If you find our work helpful, please star this repo and cite as below:
 ```bibtex
-@inproceedings{weijia2025bce3s,
-    title={BCE3S: Binary Cross-entropy based Tripartite Synergistic Learning for Long-tailed Recognition},
-    author={Weijia Fan, Qiufu Li, Jiajun Wen, and Xiaoyang Peng},
-    booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
-    year={2026},
+@inproceedings{fan2026bce3s,
+  title={BCE3S: Binary Cross-Entropy Based Tripartite Synergistic Learning for Long-tailed Recognition},
+  author={Fan, Weijia and Li, Qiufu and Wen, Jiajun and Peng, Xiaoyang},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={40},
+  number={5},
+  pages={3795--3803},
+  year={2026}
 }
 ```
 
